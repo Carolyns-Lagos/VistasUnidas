@@ -1,0 +1,36 @@
+.form-control 
+{
+    width: 100%;
+}
+#email, #fono
+{
+    
+}
+body {
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    background: radial-gradient(rgb(2, 152, 252), rgb(190, 219, 252));
+
+}
+#newUser
+{
+    background-color: #FFFF;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+}
+form
+{
+    padding-bottom: 5%;
+}
+.coso
+{
+    background-color: #29088A;
+    color:white;
+    border-radius: 15px;
+}

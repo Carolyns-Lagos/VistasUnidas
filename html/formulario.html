@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app1">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>new usuario</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="..\css\estilos.css">  
+        <script src="..\js\verificador.js" type = "text/javascript"></script>
+    </head>
+    <body ng-controller="controlador1">
+      <!--seccion Login-->
+      <!--seccion formulario-->
+      <section id="formulario">
+        <center>
+          <div class="container-fluid" id="newUser">
+            <div class="row coso">
+                <h1>Formulario de registro prov</h1>
+            </div>
+            <div class="row">
+                <h3>CREAR UNA CUENTA</h3>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                  <form >
+                      <div class="form-group">
+                          <div class="row">                             
+                            <div class="col-lg-6" >
+                              <input class="form-control" type="text" id="user" placeholder="Usuario" pattern="[A-Z a-z]{8,40}" ng-model="usuario1">
+                            </div>
+                            <div class="col-lg-6">
+                              <input class="form-control" type="text" id="password" placeholder="Contraseña" ng-model="contrasena">
+                            </div>                       
+                          </div>          
+                       </div>
+                       <div class="form-group">
+                          <div class="row">                             
+                            <div class="col-lg-6">
+                              <input class="form-control" type="text" id="rut" placeholder="11.111.111-1" ng-model="ruti">
+                            </div>
+                            <div class="col-lg-6">
+                              <input class="form-control" type="text" id="fono" placeholder="ej:987654321" pattern="[0-9]{9}" ng-model="celular">
+                            </div>                       
+                          </div>          
+                       </div>
+                      <div class="form-group">
+                        <input class="form-control" type="email" id="email" placeholder="ejemplo@ejem.com" ng-model="correo">
+                      </div>
+                      <button type="submit" class="btn btn-danger btn-register3" ng-click="inicio()">Registrar</button>
+                      <button type="reset" class="btn btn-primary btn-register3">limpiar</button>
+                  </form>
+                  <button type="button" class="btn btn-primary btn-register3" onclick="parent.location='file:///E:/Carolyns/Ejercicios%20y%20clases%20Java/clases/2019/front/projecto-final-front-end/html/pantAdm.html'">volver</button>
+              </div>
+            </div>
+          </div>
+        </center>
+       </section>
+       <!--seccion pagina inicial-->
+
+       <!--Scripts frameworks-->
+       <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+       <!--Script-->
+    </body>
+</html>

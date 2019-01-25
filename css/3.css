@@ -1,0 +1,24 @@
+#div2{
+    padding: 2%;
+   background-color: rgb(175, 183, 255);
+   margin-block-end: 0%
+}
+#div1{
+    color: black
+}
+#divRep{
+    padding: 6%;
+    margin-inline-start: 2.5%;
+    
+}
+#BOTONES{
+    padding: 3%
+}
+#div4{
+    background-color: white;
+    padding: 2%
+}
+#imgGrafico{
+    padding: 5%;
+    align-content: left;
+}

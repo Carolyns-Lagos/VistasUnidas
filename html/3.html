@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app reportes>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="..\CSS\3.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="..\js\3.js"></script>
+</head>
+<body>
+        <form action="/action_page.php" ();>
+    <div id="div2" class="jumbotron" >
+            <div class="media">
+                    <div class="media-left">
+                      <img src="..\imagenes\user.png" class="media-object" style="width:90px">
+                    </div>
+                    <div id="div1" class="media-body">
+                      <h4 class="media-heading">Nombre: Juanita Perez</h4>
+                      <h4 class="media-heading">ID: 00000000</h4>
+                      <h4 class="media-heading">Rol: Vendedor</h4>
+                      <h4 class="media-heading">Sucursal: Santiago</h4>
+                    </div>
+                    <div class="media-right">
+                            <h1>REPORTES</h1>
+                          </div>
+                  </div>
+                  </div>
+<div class="row">
+<div class="col-sm-6" style="background-color:white;">
+  <div id="divRep" class="container">
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h3>Generar Reportes</h3></div>
+        <div class="panel-body">
+              
+          <div id="BOTONES" class="container"id="seleccion">
+                  <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" >Seleccione Tipo de Reporte <span class="caret">
+                        </span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Inventario</a></li>
+                          <li><a href="#">Vendedor</a></li>
+                          <li><a href="#">Sucursal</a></li>
+                        </ul>
+                      </div>
+                  </div>
+  <div id="BOTONES" class="container">
+      <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Seleccione Formato <span class="caret">
+              </span></button>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">Exel</a></li>
+                  </ul>
+                  </div>
+               <form name="formulario" method="post" action="http://pagina.com/send.php">
+                  <!-- Campo de entrada de fecha -->
+                  Selecciona la fecha deseada:
+                  <input type="date" name="fecha" min="2018-03-25"
+                                                  max="2019-01-30" step="2">
+               </div>
+     
+ <div class="col-sm-6" style="background-color:white"><img src="..\imagenes\grafico2.png" id="imgGrafico"></div>
+</div>
+</div>
+
+</div>
+</div>   
+<div class="container" id="botonesfinales">
+        <button type="button" class="btn btn-info">Generar</button>
+        <button type="button" class="btn btn-warning">Imprimir</button>
+          </div>   
+        <div id="div4" class="jumbotron" id="volver"></div>
+        <div align="center">
+          <input type="button"class="btn btn-primary"  value="VOLVER ATRÁS" name="Back2" onclick="history.back()" />
+          </div>
+         </form>
+      </div>
+      
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>

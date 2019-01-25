@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="..\css\stock.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="div2" class="jumbotron" >
+    <div class="media-left">
+        <img src="..\imagenes\user.png" class="media-object" style="width:90px">
+    </div>
+    <div id="div1" class="media-body">
+            <h4 class="media-heading">Nombre: Juanita Perez</h5>
+            <h4 class="media-heading">ID: 00000000</h5>
+            <h4 class="media-heading">Rol: Vendedor</h5>
+            <h4 class="media-heading">Sucursal: Santiago</h5>
+    </div>
+    <div class="media-right">
+            <h1>Stock</h1>
+    </div>
+    </div>
+
+
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-9" style="background-color:lavenderblush;">
+            <div class="table-responsive">
+    <div class="media-left">
+    <div class="container" id=tabla>
+        <h2>Sistema de Stock</h2>
+        <p>Información de productos y alertas de stock.</p>
+        <table class="table">
+            <thead>
+            <tr>
+            <th>Modelo</th>
+            <th>Codigo</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            </tr>                               
+            </thead>                     
+
+            <tbody>
+            <tr class="danger">
+            <td>Samsung J7</td>
+            <td>000000000</td>
+            <td>Smartphone</td>
+            <td>$84000</td>
+            <td>05</td>
+            </tr>      
+            </tbody>
+
+            <tbody>
+            <tr class="warning">
+            <td>Huawei Y7</td>
+            <td>000000000</td>
+            <td>Smartphone</td>
+            <td>$184000</td>
+            <td>10</td>
+            </tr>      
+            </tbody>                                     
+
+            <tbody>
+            <tr>
+            <td>LG</td>
+            <td>000000000</td>
+            <td>Smartphone</td>
+            <td>$94000</td>
+            <td>21</td>
+            </tr>      
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-3" style="background-color:lavender;">
+<div class="container" id="cajita">
+    <button id="botoncarga" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">.
+    <img id="imgcargarproducto" src="..\imagenes\cargarproductos.png">
+    <br>
+    Cargar Productos</button>
+<div class="modal fade" id="myModal" role="dialog">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 class="modal-title">CARGAR PRODUCTOS</h4>
+</div>
+
+<div class="modal-body">
+    <h4 id="excel">Cargar archivo formato <b>Excel</b>.</h4>
+    <br>
+    <input id="inputfile" type="file">
+</div>
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Enviar</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-9" style="background-color:lavender;"></div>
+<div class="col-sm-3" style="background-color:lavender;"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

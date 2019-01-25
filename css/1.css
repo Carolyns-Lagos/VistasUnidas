@@ -1,0 +1,14 @@
+body{
+    background: radial-gradient(rgb(2, 152, 252), rgb(190, 219, 252));
+}
+img{
+    width: 40%;
+}
+#div1
+{
+    width: 30%; 
+    padding-top:4%;  
+}
+br{
+    padding-bottom: 6%;
+}

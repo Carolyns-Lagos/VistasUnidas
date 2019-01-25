@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html ng-app= "ventas">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VENTAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\CSS\2.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="..\js\2.js"></script>
+</head>
+<body>
+    
+    <div id="div2" class="jumbotron" >
+            <div class="media">
+                    <div class="media-left">
+                      <img src="..\imagenes\user.png" class="media-object" style="width:90px">
+                    </div>
+                    <div id="div1" class="media-body">
+                      <h4 class="media-heading">Nombre: Juanita Perez</h4>
+                      <h4 class="media-heading">ID: 00000000</h4>
+                      <h4 class="media-heading">Rol: Vendedor</h4>
+                      <h4 class="media-heading">Sucursal: Santiago</h4>
+                    </div>
+                    <div class="media-right">
+                            <h1>VENTAS</h1>
+                          </div>
+                  </div></div>
+<div class="container">            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th id="idProducto">ID</th>
+        <th id="producto">Productos</th>
+        <th id="cantidad">Cantidad</th>
+        <th id="valor">Valor</th>
+        <th id="TOTAL">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Samsung J7</td>
+        <td id="cantidad2">4</td>
+        <td id="valor2">184000</td>
+        <td id="total2"><a href="#"><span class="glyphicon glyphicon-remove" id="eliminar"></span></a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Huawei Y7</td>
+        <td id="cantidad1">3</td>
+        <td id="valor1">100000</td>
+        <td id="total1" ><a href="#"><span class="glyphicon glyphicon-remove" onclick="eliminar()"></span></a></td>
+        <tr>
+          <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>  
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td colspan="4">TOTAL:</td>
+            <td id="TOTALTOTAL"> </td>
+        </tr>
+        </tfoot>
+      </tr>
+ </tbody>
+  </table> 
+  
+  <form class="navbar-form navbar-left" action="/action_page.php">
+    <div class="form-group">
+     <input id="divAgregar" type="text"  placeholder="Ingrese ID">
+      <button type="submit" class="btn btn-default">Agregar</button> 
+   </div></form>
+        
+         <div style="width: 20%">
+      <div class="container">
+          <button type="button" class="btn btn-success">PAGAR</button>
+          <button type="button" class="btn btn-danger" onclick="multiplicar()">CANCELAR</button>
+        </div>
+        </div>
+            <div id="div4" class="jumbotron" id="volver"></div>
+            <div align="center">
+              <input type="button"class="btn btn-primary"  value="VOLVER ATRÁS" name="Back2" onclick="history.back()" />
+              </div>
+             </form>
+          </div>
+         
+            
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

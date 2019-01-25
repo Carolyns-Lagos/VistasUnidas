@@ -1,0 +1,38 @@
+#div2{
+    padding: 2%;
+   background-color: rgb(175, 183, 255);
+}
+#div1{
+    color: black
+}
+#tabla{
+    width: 265%
+}
+#cajita{
+    width: 50%;
+    height:50%;
+}
+#botoncarga{
+    color: black;
+}
+#imgcargarproducto{
+    width: 100%;
+    height: 100%;
+}
+#inputfile {
+    margin-left: 1%
+}
+#excel{
+    margin-left: 5%
+}
+#panelbusqueda{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+    height: 20%
+}
+
+
+
+
+ 
